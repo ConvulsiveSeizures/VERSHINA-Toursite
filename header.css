@@ -1,0 +1,102 @@
+.mx-content {width: max-content;}
+a {
+    color: rgb(255 255 255)!important;
+    text-shadow: black 2px -1px 8px;
+    text-decoration: none;
+}
+
+@keyframes slideHeader {
+    from {
+        opacity: 0;
+        top: -400px;
+    }
+    to {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+.head__wrapper {animation: slideHeader 2s ease-in-out;}
+
+
+@media (min-width: 238px) {
+    #logoContainerMenu a {font-size: 6.7vw;
+        color: #ffc107!important;
+        text-shadow: black 2px 2px 0px;
+        text-decoration: none;
+        letter-spacing: 2px;
+}
+    .head__wrapper {
+        
+        min-height: 40vh;
+    }
+    #logoContainerMenu {width: auto!important;}
+    #logoContainerSocial img{
+        width: 10vw;
+    }
+    #logoContainerLogotype {
+        width: max-content;
+    }
+    #logoContainerLogotype img {
+        height: 36vw;
+    }
+    #logoContainerMenu div {display: block!important}
+}
+
+@media (min-width: 456px) {
+    #logoContainerMenu a {font-size: 4.7vw;}
+    #logoContainerMenu div {display: unset!important}
+    #logoContainerSocial img{
+        height: 4.7vh;
+        width: auto;
+    }
+    #logoContainerLogotype {
+        width: max-content;
+    }
+    #logoContainerLogotype img {
+        width: 24vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 763px) {
+    #logoContainerMenu a {font-size: 2.7vh;}
+    .head__wrapper {
+
+        min-height: 40vh;
+    }
+    #logoContainerSocial img{
+        height: 4.7vh;
+        width: auto;
+    }
+    #logoContainerLogotype {
+        width: max-content;
+    }
+    #logoContainerLogotype img {
+        height: 15vh;
+        width: auto;
+    }
+}
+
+@media (min-width: 1232px) {
+    
+    
+
+    #logoContainerMenu {width: 50vw!important;}
+    .head__wrapper {
+        min-height: 34vh;
+    }
+    #logoContainerSocial img{
+        height: 4vh;
+    }
+    #logoContainerLogotype {
+        width: max-content;
+    }
+    #logoContainerLogotype img {
+        height: 15vh;
+    }
+}
+
+@media (min-width: 1763px) {
+    #logoContainerMenu {width: 40vw!important;}
+}

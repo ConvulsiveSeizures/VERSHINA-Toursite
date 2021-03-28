@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+    <link href="../adaptive.css" rel="stylesheet">
+    <linK href="../header.css" rel="stylesheet">
+    <link href="./category.css" rel="stylesheet">
+    <link href="../index/index.css" rel="stylesheet">
+
+    <link href="../contacts.css" rel="stylesheet">
+    <link href="../programs.css" rel="stylesheet">
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
+    <script src="../index.js"></script>
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@600&display=swap" rel="stylesheet">
+
+    <title>Shubert</title>
+  </head>
+  <body>
+    
+    <div class="frame__prewrapper position-fixed">
+        <div class="frame__wrapper">
+        </div>
+    </div>
+
+    <main>
+        <headder>
+           <div class="head__wrapper position-relative">
+                <div class=" position-fixed top-0 end-0 p-4">
+                    <button class="btn btn-primary" id="togThemeBtn">Сменить тему</button>
+                </div>
+                <div class="head__slider containerposition-absolute">
+                    <div id="logoContainer" class="col-10 col-md-10 col-xxl-8 container justify-content-center pt-4">
+                        <div class="container  mx-content justify-content-center" id="logoContainerSocial">
+                            <div class="row">
+                                <div class="col pt-3">
+                                    <a href="$"><img src="../media/i-1.png"></a>
+                                </div>
+                                <div class="col">
+                                    <a href="$"><img src="../media/i-2.png"></a>
+                                </div>
+                                <div class="col pt-3">
+                                    <a href="$"><img src="../media/i-3.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container  mx-content justify-content-center text-center" id="logoContainerLogotype">
+                            <a href="$"><img src="../media/logo.png"></a>
+                        </div>
+                        <div class="container mx-content justify-content-center text-center pt-3" id="logoContainerMenu">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="$">ГЛАВНАЯ</a>
+                                </div>
+                                <div class="col">
+                                    <a href="#" id="programsOpenBtn">ПРОГРАММЫ</a>
+                                </div>
+                                <div class="col">
+                                    <a href="#" id="contactsOpenBtn">КОНТАКТЫ</a>
+                                </div>
+                                <div class="col">
+                                    <a href="$">О НАС</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </headder>
+        
+
+        <!--Menu PROGRAMS-->
+        <section>
+            <div class="container-fluid justify-content-center" id="programWrapper">
+                <div class="d-flex container-fluid position-absolute justify-content-center">
+                    <div class="d-flex col-12 col-md-8 col-xxl-8 justify-content-center bg-white ps-4" id="programs">
+                        <div class="pt-4 col-12">
+                            <div class="row">
+                                <div class="col">
+                                    <h1>Подберем любую программу для вас:</h1>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <button class="btn btn-danger me-4" id="programsCloseBtn">Закрыть</button>
+                                </div>
+                                
+                            </div>
+                            <div class="row tg-flex">
+                                <div class="col">
+                                    <h3 class="pt-2">1) Выберите город</h3>
+                                    <h5>Здесь представлен список городов, в которых работает наша компания. В каждом городе есть свои уникальные места. Со временем список будет пополняться.</h5>
+                                </div>
+                                <div class="col obj-fit">
+                                    <img class="ps-4 pe-2" src="../media/1_cut-photo.ru.jpg">
+                                </div>
+                            </div>
+                            <div class="row tg-flex">
+                                <div class="col pt-2">
+                                    <h3 class="pt-2">2) Подберите место для поездки</h3>
+                                    <h5>Откройте для себя новые места путешествий, что хотите, серьезно! Снежные скалы, Теплое море или, может, зеленые Парки с уникальными растениями</h5>
+                                </div>
+                                <div class="col obj-fit">
+                                    <img class="ps-4 pe-2" src="../media/2_cut-photo.ru.jpg">
+                                </div>
+                            </div>
+                            <div class="row tg-flex pt-2">
+                                <div class="col">
+                                    <h3 class="pt-2">3) Хотите на снег? - Без проблем, выбор всегда за вами</h3>
+                                    <h5>Постройте сами свой маршрут на открытых локациях. Записывайтесь в группу, пишите нам на почту, оставляйте заявку, мы прочтем всё и ответим как можно быстрей</h5>
+                                </div>
+                                <div class="col obj-fit">
+                                    <img class="ps-4 pe-2 " src="../media/3_cut-photo.ru.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---->
+
+        
+        <!--Menu CONTACTS-->
+        <section>
+            <div class="container-fluid justify-content-center">
+                <div class="d-flex container-fluid position-absolute justify-content-center">
+                    <div class="d-flex col-12 col-md-8 col-xxl-8 justify-content-center bg-white ps-4  z-1000" id="contacts">
+                        <div class="pt-4 col-12">
+                            <div class="row tg-flex">
+                                <div class="col d-flex justify-content-end">
+                                    <button class="btn btn-danger me-4" id="contactsCloseBtn">Закрыть</button>
+                                </div>
+                            </div>
+                            <div class="row tg-flex align-items-center">
+                                <div class="col d-flex justify-content-center">
+                                    <h1>Мы в сети</h1>
+                                </div>
+                                <div class="col d-flex justify-content-center">
+                                    <ul>
+                                        <li><a href="#" class="text-dark"><img src="../media/i-1.png" class="m-1"/>whatsapp</a></li>
+                                        <li><a href="#" class="text-dark"><img src="../media/i-2.png" class="m-1"/>instagram</a></li>
+                                        <li><a href="#" class="text-dark"><img src="../media/i-3.png" class="m-1"/>telegram</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row tg-flex align-items-center">
+                                <div class="col d-flex justify-content-center">
+                                    <h1>Вы можете нам позвонить</h1>
+                                </div>
+                                <div class="col d-flex justify-content-center">
+                                    <ul>
+                                        <li><a href="#" class="text-dark"><img src="../media/i-number.png" class="m-1"/>89182928213</a></li>
+                                        <li><a href="#" class="text-dark"><img src="../media/i-number.png" class="m-1"/>89182928213</a></li>
+                                        <li><a href="#" class="text-dark"><img src="../media/i-number.png" class="m-1"/>89182928213</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row tg-flex align-items-center">
+                                <div class="col d-flex justify-content-center">
+                                    <h1>Заказать звонок или оставить заявку</h1>
+                                </div>
+                                <div class="col d-flex justify-content-center">
+                                    <ul>
+                                        <li><a href="#" class="text-dark"><img src="../media/i-e.png" class="m-1"/>vershina@gmail.com</a></li>
+                                        <li><a href="#" class="text-dark"><img src="../media/i-e.png" class="m-1"/>vershina@yandex.ru</a></li>
+                                        <li><a href="#" class="text-dark"><img src="../media/i-e.png" class="m-1"/>vershina@mail.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid justify-content-center pt-1 mt-1 tg-mg" id="ettisContainer">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="col-8">
+                        <div class="position-absolute mt-5 d-flex" id="backEttiTheme">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="row col-10 container" id="ettis">
+                        <div class="col text-start tg-disp z-100">
+                            <img src="../media/etti1.png">
+                        </div>
+                        <div class="invite__text text-center pt-5 z-100">
+                            <h1 id="inviteText"><a href="$">Успей побывать везде, природа ждать не будет!</a></h1>
+                            <hr class="text-white">
+                            <div class="row">
+                                <div class="col">
+                                    <p class=" feedback__text"><a href="$" class="text-warning"><img src="../media/i-number.png" class="icons">8928928292</a></p>
+                                </div>
+                                <div class="col">
+                                    <p class=" feedback__text"><a href="$" class="text-warning"><img src="../media/i-number.png" class="icons">8928928292</a></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="text-white">Вы всегда можете написать нам на email, либо оставить письмо с заявкой на сайте </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col text-end tg-disp ms-2 z-100">
+                            <img src="../media/etti2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!--CONTENT-->
+        <section>
+            <div class="container-fluid justify-content-center mt-1 z-100">
+                <div class="col-12 col-sm-12 col-xxl-12 d-flex justify-content-center h-inherit">
+                    <div class="category__container justify-content-center col-11 col-md-10 col-xxl-8 d-flex z-100">
+                        <div class="grid__split text-center position-absolute">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <h2 class="position-absolute dr"><a href="$">Снежные скалы</a></h2>
+                                <a href="$"><img src="../media/category.png"></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <h2 class="position-absolute dr"><a href="$">Теплое море</a></h2>
+                                <a href="$"><img src="../media/category.png"></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <h2 class="position-absolute dr"><a href="$">Старые места</a></h2>
+                                <a href="$"><img src="../media/category.png"></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <h2 class="position-absolute dr"><a href="$">Олимпийские объекты</a></h2>
+                                <a href="$"><img src="../media/category.png"></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <h2 class="position-absolute dr"><a href="$">Парки</a></h2>
+                                <a href="$"><img src="../media/category.png"></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <h2 class="position-absolute dr"><a href="$">Развлекательные площадки</a></h2>
+                                <a href="$"><img src="../media/category.png"></a>
+                            </div>
+                        </div>
+                        <img src="../media/map.png" id="map">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    
+    
+  </body>
+</html>

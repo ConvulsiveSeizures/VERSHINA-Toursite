@@ -1,0 +1,40 @@
+
+
+#programs {
+    display: none!important;
+    border-radius: 10px;
+    min-height: 54vh;
+    z-index: 1000;
+}
+#programs.on__active {
+    display: flex!important;
+}
+
+@media (min-width: 238px) {
+    .tg-flex {display: block!important;}
+    .obj-fit img {
+        border-radius: 10px;
+        object-fit: cover;
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 762px) {
+    .obj-fit img {
+        border-radius: 10px;
+        object-fit: cover;
+        width: 40vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 1232px) {
+    .tg-flex {display: flex!important;}
+    .obj-fit img {
+        border-radius: 10px;
+        object-fit: cover;
+        width: 24vw;
+        height: auto;
+    }
+}

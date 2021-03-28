@@ -1,0 +1,80 @@
+
+.h-inherit {
+    height: inherit;
+}
+
+.dr:hover {
+    filter: drop-shadow(10px 10px 10px);
+}
+
+@media (min-width: 238px) {
+    .grid__split {
+        width: inherit;
+        height: inherit;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .grid__split img {
+        width: auto;
+        height: 15vh;
+    }
+    .grid__split div h2{
+        width: 23%;
+    }
+    .grid__split a {
+        font-size: 2vh;
+    }
+    #map {
+        width: inherit;
+        height: auto;
+    }
+    #map {
+        width: 90vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 1232px) {
+    .category__title h2 {
+        font-size: 30px;
+        word-break:break-word;
+    }
+    .category__container {
+        min-height: 100%;
+    }
+    #map {
+        width: auto;
+        height: 50vh;
+    }
+    .grid__split {
+
+        width: 40%;
+        height: inherit;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .grid__split img {
+        height: auto;
+        width: 9vw;
+    }
+
+}
+
+
+@media (min-width: 1632px) {
+    
+    .grid__split img {
+        width: auto;
+        height: 20vh;
+    }
+    .grid__split div h2{
+        width: 23%;
+    }
+    .grid__split a {
+        font-size: 2.5vh;
+    }
+}

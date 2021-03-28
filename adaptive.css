@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Fira Sans Extra Condensed', sans-serif!important;
+    overflow-x: hidden;
+}
+
+
+.z-100 {
+    z-index: 100;
+}
+
+
+.frame__prewrapper {
+    z-index: -100;
+    width: inherit;
+    height: 100%;
+    background: linear-gradient(180deg, #ffffff, #ffeb7b);
+    transition: all 2s ease;
+}
+
+.frame__prewrapper.tog__theme {
+    background: linear-gradient(180deg, #241d51, #582980bd);
+}
+
+main {
+    position: absolute!important;
+    width: inherit!important;
+    min-height: 100%!important;
+    background-image: url("./media/forest.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+}
+
+.frame__wrapper {
+    min-height: 100vh;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+@media (min-width: 238px) {
+    @keyframes slideTheme {
+        from {background-size: 1016% auto;}
+        to {background-size:  516% auto;}
+    }
+
+    main {background-size: 516% auto;animation: slideTheme 2.8s ease;}
+}
+
+
+
+@media (min-width: 456px) {
+    @keyframes slideTheme {
+        from {background-size: 1016% auto;}
+        to {background-size:  316% auto;}
+    }
+
+    main {background-size: 316% auto;animation: slideTheme 2.8s ease;}
+}
+
+@media (min-width: 763px) {
+
+    @keyframes slideTheme {
+        from {background-size: 296% auto;}
+        to {background-size:  222% auto;}
+    }
+
+    main {background-size: 222% auto;animation: slideTheme 2.4s ease;}
+}
+
+@media (min-width: 1232px) {
+
+    
+    @keyframes slideTheme {
+        from {background-size: 176% auto;}
+        to {background-size:  100% auto;}
+    }
+
+    main {background-size: 100% auto;animation: slideTheme 2.1s ease;}
+}
+

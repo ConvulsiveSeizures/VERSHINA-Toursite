@@ -1,0 +1,45 @@
+.grid__ticket__gallery {
+    color: white!important;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 4px;
+}
+
+
+
+
+.w-break {
+    word-break: break-word!important;
+}
+
+
+@media (min-width: 238px) {
+    .tg-d {
+        display: block!important;
+    }
+    #ticketPhoto {
+        border-radius: 10px;
+        width: 62vw;
+    }
+    .grid__ticket__gallery img {
+        border-radius: 5px;
+        width: 12vw;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 762px) {
+    .tg-d {
+        display: flex!important;
+    }
+    #ticketPhoto {
+        border-radius: 10px;
+        width: 31vw;
+    }
+    .grid__ticket__gallery img {
+        border-radius: 5px;
+        width: 6vw;
+        object-fit: cover;
+    }
+}

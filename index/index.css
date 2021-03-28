@@ -1,0 +1,144 @@
+#ettisContainer a {text-decoration: none!important; color: white;}
+
+#backEttiTheme {
+    border-radius: 10px;
+    width: inherit;
+    background-color: rgb(12 11 46);
+    opacity: 0.5;
+}
+#regions img {
+    height: 10vh;
+}
+
+
+.feedback__text {
+    letter-spacing: 2px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: black;
+    height: 150px;
+    width: 170px;
+    z-index: -1;
+}
+
+#regions {
+    display: initial;
+    min-height: 20vh;
+}
+
+
+.region {
+    border-radius: 50%;
+    height: 150px;
+    width: 170px;
+}
+.region img{
+    border-radius: 50%;
+    height: 160px!important;
+    width: 180px!important;
+    transition: all 1s ease;
+}
+
+.region:hover {
+    filter: drop-shadow(10px 10px 10px);
+}
+
+.region img:hover {
+    transform: scale(1.2);
+}
+
+.back__region {
+    overflow: hidden;
+    display: flex;
+    background-color:  #ffc107;
+    padding: 9px 4px 4px 4px;
+    border-radius: 50%;
+}
+
+@media (min-width: 238px) {
+    .region__card {
+        margin: 2.7vh;  
+      }
+      #backEttiTheme {min-height: 100vw;}
+    .tg-mg {margin: 0!important;}
+    .icons {
+        height: 4.4vh;
+        width: auto;
+    }
+    .invite__text  {width: 70vw;}
+    #inviteText {font-size: 30px;}
+    #ettisContainer {
+        min-height: 26vh;
+    }
+    #ettis  {
+        padding: 10px;
+    }
+    .tg-disp {display: none;}
+    #regions div {
+        padding-top: 0!important;
+    }
+}
+
+@media (min-width: 336px) {
+    #backEttiTheme {min-height: 50vh;}
+}
+
+
+@media (min-width: 522px) {
+    #regions div {
+        padding-top: unset;
+    }
+    .region__card {
+        margin: 1.7vw;  
+      }
+    .icons {
+        height: 3.7vh;
+        width: auto;
+    }
+    #inviteText {font-size: 5vw;}
+}
+
+@media (min-width: 763px) {
+    #backEttiTheme {min-height: 54vh;}
+    .icons {
+        height: 3.1vh!important;
+        width: auto;
+    }
+    .feedback__text {
+        font-size: 2.7vh!important;
+    }
+    #ettisBack {
+        background-color: white;
+        border-radius: 10px;
+        z-index: -50;
+    }
+    #inviteText {font-size: 4vh;}
+    #ettisContainer {
+        min-height: 20vh;
+    }
+    #ettisContainer img {
+        height: 13vh;
+        width: auto;
+    }
+    
+}
+
+@media (min-width: 968px) {
+    .invite__text  {width: 27vw;}
+    .tg-disp {display: unset!important;}
+}
+
+@media (min-width: 1232px) {
+    .feedback__text {
+        font-size: 2.2vh!important;
+    }
+    #ettisContainer img {
+        height: 15vh;
+        width: auto;
+    }
+
+    
+
+}
