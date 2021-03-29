@@ -11,7 +11,7 @@
 
     <link href="../adaptive.css" rel="stylesheet">
     <linK href="../header.css" rel="stylesheet">
-    <link href="./index.css" rel="stylesheet">
+    <link href="../index.css" rel="stylesheet">
     <link href="../programs.css" rel="stylesheet">
     <link href="../contacts.css" rel="stylesheet">
 
@@ -29,15 +29,15 @@
   </head>
   <body>
     
+    <!--должен быть на каждоый сранице-->
     <div class="frame__prewrapper position-fixed">
         <div class="frame__wrapper">
         </div>
     </div>
-
-
-    
+    <!---->
 
     <main>
+        <!--block header-->
         <headder>
            <div class="head__wrapper position-relative">
                 <div class=" position-fixed top-0 start-0 p-4">
@@ -84,9 +84,10 @@
                 </div>
            </div>
         </headder>
+        <!--endblock-->
         
 
-        <!--Menu PROGRAMS-->
+        <!--block MenuPrograms-->
         <section>
             <div class="container-fluid justify-content-center" id="programWrapper">
                 <div class="d-flex container-fluid position-absolute justify-content-center">
@@ -133,11 +134,11 @@
                 </div>
             </div>
         </section>
-        <!---->
+        <!--endblock-->
 
         
-        <!--Menu CONTACTS-->
-            <section>
+        <!--block MenuContacts-->
+        <section>
             <div class="container-fluid justify-content-center">
                 <div class="d-flex container-fluid position-absolute justify-content-center">
                     <div class="d-flex col-12 col-md-8 col-xxl-8 justify-content-center bg-white ps-4  z-1000" id="contacts">
@@ -190,9 +191,10 @@
                 </div>
             </div>
         </section>
+        <!--endblock-->
 
 
-
+        <!--block decorations-->
         <section>
             <div class="container-fluid justify-content-center pt-2 mt-5 tg-mg" id="ettisContainer">
                 <div class="col-12 d-flex justify-content-center">
@@ -203,11 +205,11 @@
                 </div>
                 <div class="col-12 d-flex justify-content-center">
                     <div class="row col-10 container" id="ettis">
-                        <div class="col text-start tg-disp z-100">
+                        <div class="col text-center tg-disp z-100">
                             <img src="../media/etti1.png">
                         </div>
                         <div class="invite__text text-center pt-5 z-100">
-                            <h1 id="inviteText"><a href="$">Выбери город и наслаждайся путешествием</a></h1>
+                            <h1 id="inviteText"><a href="$">Насладись путешествием по полной!</a></h1>
                             <hr class="text-white">
                             <div class="row">
                                 <div class="col">
@@ -223,16 +225,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col text-end tg-disp ms-2 z-100">
+                        <div class="col text-center tg-disp ms-2 z-100">
                             <img src="../media/etti2.png">
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <!--endblock-->
+
+        <!--block content (Regions)-->
+        <section>
             <div class="container-fluid justify-content-center mt-5" id="regions">
                 <div class="justify-content-center d-flex flex-wrap text-center container col-8 ps-3 pe-3 z-100 pt-5">
                     
-                    <!--FOR REGION IN REGION-->
+                    <!--for region in regions-->
                     <div class="region__card col text-center justify-content-center d-flex">
                         <div class="circle position-absolute">
                         </div>
@@ -243,11 +250,13 @@
                             </div>
                         </div>
                     </div>
-                    <!--ENDFOR-->
+                    <!--endfor-->
                       
                 </div>
             </div>
         </section>
+        <!--endblock-->
+
     </main>
   </body>
 </html>
